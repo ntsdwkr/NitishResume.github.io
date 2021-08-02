@@ -767,6 +767,13 @@ button:focus {
   outline: none;
 }
 
+.iiitaaa img {
+  display: inline;
+  height: 14px;
+  width: 18px; 
+  padding: 0px;
+}
+
 
 
 /* Media Query */
