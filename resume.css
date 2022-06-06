@@ -43,6 +43,7 @@ body {
   text-align: center;
 }
 
+
 /* Name */
 
 #name {
@@ -272,7 +273,7 @@ section:nth-child(2n + 1) {
   height: auto;
   width: auto;
   /* top: 25%;
-  left: 60%; */ 
+  left: 60%; */
   background-color: white;
   margin-left: 70%;
   margin-top: 200px;
@@ -306,7 +307,7 @@ section:nth-child(2n + 1) {
   box-shadow: 8px 8px 25px -10px;
   border-radius: 20px;
   padding: 5px;
-  background-image: url(src/img/bg.png); 
+  background-image: url(src/img/bg.png);
   background-size: cover;
 }
 
@@ -314,16 +315,16 @@ section:nth-child(2n + 1) {
   left: 53%;
 }
 
-#iitr:hover{
+#iitr:hover {
   color: black;
 }
-#nitrr:hover{
+#nitrr:hover {
   color: black;
 }
-#sjs:hover{
+#sjs:hover {
   color: black;
 }
-#sjst:hover{
+#sjst:hover {
   color: black;
 }
 
@@ -447,7 +448,6 @@ section:nth-child(2n + 1) {
   text-align: right;
 }
 
-
 /* Internship & Training */
 
 .outer {
@@ -471,7 +471,7 @@ section:nth-child(2n + 1) {
   box-shadow: 8px 8px 25px -10px;
   border-radius: 20px;
   padding: 5px;
-  background-image: url(src/img/bg.png); 
+  background-image: url(src/img/bg.png);
   background-size: cover;
 }
 
@@ -485,7 +485,7 @@ section:nth-child(2n + 1) {
   /* border: 2px solid black; */
   border-radius: 20px;
   padding: 5px;
-  background-image: url(src/img/bg.png); 
+  background-image: url(src/img/bg.png);
   background-size: cover;
 }
 
@@ -509,17 +509,17 @@ section:nth-child(2n + 1) {
   text-align: left;
 }
 
-.inner-box p{
+.inner-box p {
   font-size: 16px;
   font-family: system-ui;
   text-align: justify;
   margin: 5px;
   margin-left: 5%;
   margin-right: 5%;
-  padding: 20px;
+  padding: 1px;
 }
 
-#duration{
+#duration {
   font-size: 13px;
   font-family: system-ui;
   text-align: left;
@@ -529,9 +529,9 @@ section:nth-child(2n + 1) {
   font-weight: 600;
   padding: 0px;
   color: rgb(64, 100, 29);
-} 
+}
 
-#int2:hover{
+#int2:hover {
   color: black;
 }
 
@@ -552,15 +552,15 @@ section:nth-child(2n + 1) {
   margin: 30px;
   margin-bottom: 20px;
   left: -10%;
-  min-height: 200px;
+  /* min-height: 200px; */
   /* border: 2px solid #736b68; */
   border: 1px solid #736b68;
   box-shadow: 8px 8px 25px -10px;
   border-radius: 20px;
   padding: 20px;
-  background-image: url(src/img/bg.png); 
+  background-image: url(src/img/bg.png);
   background-size: cover;
-} 
+}
 
 .pinr {
   position: relative;
@@ -568,13 +568,13 @@ section:nth-child(2n + 1) {
   margin: 30px;
   margin-bottom: 20px;
   left: 45%;
-  min-height: 250px;
+  /* min-height: 250px; */
   /* border: 2px solid #736b68; */
   border: 1px solid #736b68;
   box-shadow: 8px 8px 25px -10px;
   border-radius: 20px;
   padding: 20px;
-  background-image: url(src/img/bg.png); 
+  background-image: url(src/img/bg.png);
   background-size: cover;
 }
 
@@ -589,14 +589,14 @@ section:nth-child(2n + 1) {
   display: inline;
 }
 
-#pin1:hover{
+#pin1:hover {
   color: black;
 }
 
 .pinr a img {
   display: inline;
   height: 14px;
-  width: 18px; 
+  width: 18px;
   padding: 0px;
 }
 
@@ -607,15 +607,13 @@ section:nth-child(2n + 1) {
   margin: 5px;
   margin-left: 5%;
   margin-right: 5%;
-  padding: 20px;
+  /* padding: 20px; */
 }
-
-
 
 .pinl a img {
   display: inline;
   height: 14px;
-  width: 18px; 
+  width: 18px;
   padding: 0px;
 }
 
@@ -626,12 +624,8 @@ section:nth-child(2n + 1) {
   margin: 5px;
   margin-left: 5%;
   margin-right: 5%;
-  padding: 20px;
+  /* padding: 20px; */
 }
-
-
-
-
 
 /* Contact Form */
 
@@ -712,7 +706,6 @@ section:nth-child(2n + 1) {
   margin-right: 0.5rem;
 }
 
-
 #contact-form input,
 textarea {
   max-width: 90%;
@@ -727,8 +720,6 @@ textarea {
   line-height: 1.6;
   font-size: 1.05rem;
 }
-
-
 
 #contact-form button[type="submit"] {
   background: transparent;
@@ -753,11 +744,9 @@ textarea {
 }
 
 #contact .social-icons li a i {
-
   font-size: 1.2rem;
   margin: 40px 10px 10px;
   padding: 10px 14px 20px 10px;
-
 }
 
 input:focus,
@@ -770,11 +759,13 @@ button:focus {
 .iiitaaa img {
   display: inline;
   height: 14px;
-  width: 18px; 
+  width: 18px;
   padding: 0px;
 }
 
-
+ul li {
+  font-family: system-ui;
+}
 
 /* Media Query */
 /* 
@@ -833,6 +824,3 @@ button:focus {
   }
 
 } */
-
-
-
